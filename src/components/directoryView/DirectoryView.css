@@ -1,0 +1,14 @@
+.card {
+    margin: auto;
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.photo {
+    height: 150px;
+}

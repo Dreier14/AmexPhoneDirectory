@@ -1,0 +1,19 @@
+.background {
+    background-image: url('https://pentagram-production.imgix.net/de996aa4-5343-4200-a466-ab8fc7eafa80/am_amex_08.jpg?rect=%2C%2C%2C&w=740&fm=jpg&q=70&auto=format');
+    min-height: 600px;
+    height: 100vh;
+}
+
+.detailed-container {
+ width: fit-content;
+ color: white;
+}
+
+.detailed-image {
+    width: 25%;
+}
+
+.list-group-item {
+    color: white;
+    background: none;
+}
