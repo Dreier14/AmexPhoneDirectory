@@ -8,8 +8,8 @@ export const DetailedView = () => {
     const location = useLocation();   
     const deatiledInfo = location.state.props;
     const { title, first, last } = deatiledInfo.name;
-    const { age, date } = deatiledInfo.dob
-    const { city, country, postcode, state, street } = deatiledInfo.location
+    const { age, date } = deatiledInfo.dob;
+    const { city, country, postcode, state, street } = deatiledInfo.location;
 
     // Date of Birth
     const dob = dayjs(date).format('MM/DD/YYYY');
@@ -17,7 +17,7 @@ export const DetailedView = () => {
     `${street.number} ${street.name}
      ${postcode} ${city}, ${state} 
      ${country}
-    `
+    `;
 
     return (
         <>
